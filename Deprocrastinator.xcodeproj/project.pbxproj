@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1770A6B41BDBF4A5007A97D9 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 1770A6B31BDBF4A5007A97D9 /* Task.m */; };
 		17B0F5F21BC3062800560F46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B0F5F11BC3062800560F46 /* main.m */; };
 		17B0F5F51BC3062800560F46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B0F5F41BC3062800560F46 /* AppDelegate.m */; };
 		17B0F5F81BC3062800560F46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B0F5F71BC3062800560F46 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1770A6B21BDBF4A5007A97D9 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		1770A6B31BDBF4A5007A97D9 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 		17B0F5ED1BC3062800560F46 /* Deprocrastinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deprocrastinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B0F5F11BC3062800560F46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		17B0F5F31BC3062800560F46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,14 +61,11 @@
 		17B0F5EF1BC3062800560F46 /* Deprocrastinator */ = {
 			isa = PBXGroup;
 			children = (
-				17B0F5F31BC3062800560F46 /* AppDelegate.h */,
-				17B0F5F41BC3062800560F46 /* AppDelegate.m */,
 				17B0F5F61BC3062800560F46 /* ViewController.h */,
 				17B0F5F71BC3062800560F46 /* ViewController.m */,
+				1770A6B21BDBF4A5007A97D9 /* Task.h */,
+				1770A6B31BDBF4A5007A97D9 /* Task.m */,
 				17B0F5F91BC3062800560F46 /* Main.storyboard */,
-				17B0F5FC1BC3062800560F46 /* Assets.xcassets */,
-				17B0F5FE1BC3062800560F46 /* LaunchScreen.storyboard */,
-				17B0F6011BC3062800560F46 /* Info.plist */,
 				17B0F5F01BC3062800560F46 /* Supporting Files */,
 			);
 			path = Deprocrastinator;
@@ -74,6 +74,11 @@
 		17B0F5F01BC3062800560F46 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				17B0F5F31BC3062800560F46 /* AppDelegate.h */,
+				17B0F5F41BC3062800560F46 /* AppDelegate.m */,
+				17B0F5FC1BC3062800560F46 /* Assets.xcassets */,
+				17B0F5FE1BC3062800560F46 /* LaunchScreen.storyboard */,
+				17B0F6011BC3062800560F46 /* Info.plist */,
 				17B0F5F11BC3062800560F46 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1770A6B41BDBF4A5007A97D9 /* Task.m in Sources */,
 				17B0F5F81BC3062800560F46 /* ViewController.m in Sources */,
 				17B0F5F51BC3062800560F46 /* AppDelegate.m in Sources */,
 				17B0F5F21BC3062800560F46 /* main.m in Sources */,
@@ -299,6 +305,7 @@
 				17B0F6061BC3062800560F46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
